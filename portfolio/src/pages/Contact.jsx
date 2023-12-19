@@ -63,7 +63,7 @@ const Contact = () => {
         console.log(error);
         showAlert({
           show: true,
-          text: "I didn't receive you message",
+          text: "I didn't receive your message",
           type: "danger",
         });
       });
@@ -76,6 +76,7 @@ const Contact = () => {
         <h1 className="head-text">Get in Touch</h1>
 
         <form
+          ref={formRef}
           className="w-full flex flex-col gap-7 mt-14"
           onSubmit={handleSubmit}
         >
