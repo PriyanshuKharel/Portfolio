@@ -18,19 +18,22 @@ import {
   pricewise,
   react,
   redux,
-  sass,
+  python,
   snapgram,
   summiz,
   tailwindcss,
   threads,
   typescript,
+  java,
+  django,
+  dotnet,
 } from "../assets/icons";
 
 export const skills = [
   {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
   },
   {
     imageUrl: express,
@@ -38,38 +41,8 @@ export const skills = [
     type: "Backend",
   },
   {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-  {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
-    imageUrl: motion,
-    name: "Motion",
-    type: "Animation",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
+    imageUrl: react,
+    name: "React",
     type: "Frontend",
   },
   {
@@ -83,19 +56,39 @@ export const skills = [
     type: "Backend",
   },
   {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
-  {
     imageUrl: redux,
     name: "Redux",
     type: "State Management",
   },
   {
-    imageUrl: sass,
-    name: "Sass",
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: java,
+    name: "JAVA",
+    type: "Language",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
     type: "Frontend",
+  },
+  {
+    imageUrl: django,
+    name: "Django",
+    type: "Framework",
+  },
+  {
+    imageUrl: dotnet,
+    name: "DOTNET",
+    type: "Framework",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
+    type: "Language",
   },
   {
     imageUrl: tailwindcss,
@@ -111,55 +104,30 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full Stack Developer",
+    company_name: "Wiseadmit Technologies",
     icon: starbucks,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learnt about TypeScript",
+      "Collaborated with designers, other developers to create high-quality products.",
+      "Learnt about CI/CD and JEST Test Cases for unit testing",
+      "Learnt about some services of AWS including S3, Amplify etc",
+      "Learnt about NextJS",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Full Stack Developer",
+    company_name: "Wiseadmit Technologies",
     icon: meta,
     iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web application using React.js, Express, MongoDB and Next JS.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and following constructive feedback from other developers.",
     ],
   },
 ];
@@ -173,12 +141,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/PriyanshuKharel",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/priyanshu-kharel-22a09b23a/",
   },
 ];
 
@@ -186,49 +154,64 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Learning Management System",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      " It is similar to Udemy not a clone where multiple technologies are used. TypesScript is used for both frontend and backend as well as redis is used for maintaining cache",
+    link: "https://github.com/PriyanshuKharel/LMS",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Book My Show Clone",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "This is a clone of book my show where I used React for frontend. Here API was extracted from Movie API Provider.",
+    link: "https://github.com/PriyanshuKharel/book-my-show.github.io",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Admin Dashboard For Consultancy",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      " This project was built for a consultancy not paid where I built API with Express. MongoDB was used for database and React for frontend. This project allows the consultancy person to check about student details. It also allows them to check all the payments",
+    link: "https://github.com/PriyanshuKharel",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Book Record Management",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Built a API which was created using Express and MongoDB as database , allowing users to created, modified and deleted. Also if the book period is over or membership is over then the fine will be added automatically if the book is not returned.",
+    link: "https://github.com/PriyanshuKharel/book-record-management",
   },
   {
     iconUrl: estate,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+    name: "3D Portfolio",
+    description: " In this project, I created my portfolio using Three JS.",
+    link: "https://github.com/PriyanshuKharel/Portfolio",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Tasky Application",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "App that leverages and keeps the tasks to be done for future. It is built using JavaScript",
+    link: "https://github.com/PriyanshuKharel/Tasky-Appln",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Zomato Clone",
+    description:
+      "It is a zomato clone. Backend is fully completed and stack used in Express and MongoDB as database. Frontend is ongoing doing using React",
+    link: "https://github.com/PriyanshuKharel",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Flood Prediction System",
+    description:
+      "This project is a ML based project where I built a Flood Prediction System where Linear Regression is used as an algorithm. The algorithm was self implemented not imported as a package. It predicts the whether the flood occurs or not based on data provided by a professional. The datasets were bought from Department of Hydrology and Meteorology which is a real time data for Khokana, Khumaltar and Manohara.",
+    link: "https://github.com/PriyanshuKharel/Flood-Prediction-System",
   },
 ];
